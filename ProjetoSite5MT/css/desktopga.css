@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+
+p{
+    margin-left: 250px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.principal{
+    width: 99.5%;
+}
+
+h1{
+    margin-left: 545px;
+    font-size: 3em;
+    margin-top: 80px;
+}
+.nomeRobo{
+    margin: 0 auto;
+    background-color: black;
+    color:white;
+    font-size: 2em;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 3px;   
+}
+.nomeRobo h1{
+    margin-left: 0px; 
+    font-size: 2em;
+    margin-top: 40px;
+
+}
+
+.img2{
+    position: absolute;
+
+    width: 50px;
+    height: 65px;
+    margin-top: -18px;
+    margin-left: -10px;
+}
+main .navegacao a{
+    color:white;
+}
+main .navegacao li{
+    font-size: 25px;
+    text-align: left;
+
+    list-style: none;
+
+    position:absolute;
+
+    width: 0px;
+    height: 0px;
+
+    margin-left: 185px;
+
+    top: 100px;
+    left: -140px;
+
+    background-color: black;
+
+
+}
+main .navegacao ul{
+    display: none;
+    position: absolute;
+}
+li:hover ul{
+    display: block;
+    height: 80px;
+    display: inline-flex;
+
+}
+
+.navegacao li ul{
+    
+    width: 740px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid white;
+    margin-top: 45px;
+    padding: 0;
+    text-align: center;
+    margin-left: -8px;
+
+}
+.inicio a:hover, .objetivo a:hover, .roboc a:hover, .hardware a:hover, .galeria a:hover, .quems a:hover{
+    background-color: gray;
+}
+.inicio,.objetivo,.roboc,.hardware,.galeria,.quems{
+
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+
+main .hardww h2{
+    margin-top: 65px;
+    margin-left: 580px;
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+}
+
+.img7,.img14,.img15,.img16,.img20,.img21{
+    width: 250px;
+    height: 300px;
+    position: relative;
+}
+.boximg{
+    text-align: center;
+}
+
+video{
+    height: 400px;
+    margin-top: 13px;
+    margin-left: 50px;
+    margin-right: 35px;
+    float: left;
+}
+
+.video1{
+    float: right;
+    margin-right: 50px;
+}
+
+.img20{
+    position: relative ;
+    right: 2px;
+    top: 890px;
+}
+.img15{
+    position: absolute ;
+    right: 600px;
+    top: 890px;
+}
+.img16{
+    position: absolute ;
+    right: 300px;
+    top: 890px;
+}
+.img20{
+    position: absolute ;
+    right: 10px;
+    top: 890px;
+}
+.img21{
+    position: absolute ;
+    right: 900px;
+    top: 890px;
+}

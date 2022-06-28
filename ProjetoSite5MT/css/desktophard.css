@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+}
+.principal{
+    width: 100%;
+}
+.nomeRobo{
+    margin: 0 auto;
+    background-color: black;
+    color:white;
+    font-size: 2em;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 3px;
+    
+}
+.img2{
+    position: absolute;
+
+    width: 50px;
+    height: 65px;
+    margin-top: -18px;
+    margin-left: -10px;
+}
+main .navegacao a{
+    color:white;
+}
+main .navegacao li{
+    font-size: 25px;
+    text-align: left;
+
+    list-style: none;
+
+    position:absolute;
+
+    width: 0px;
+    height: 0px;
+
+    margin-left: 185px;
+
+    top: 100px;
+    left: -140px;
+
+    background-color: black;
+
+
+}
+main .navegacao ul{
+    display: none;
+    position: absolute;
+}
+li:hover ul{
+    display: block;
+    height: 80px;
+    display: inline-flex;
+
+}
+
+li:hover .hardww{
+    color:aqua;
+
+}
+.navegacao li ul{
+    
+    width: 740px;
+    background-color: black;
+    opacity: 0.5;
+    border: 1px solid white;
+    margin-top: 45px;
+    padding: 0;
+    text-align: center;
+    margin-left: -8px;
+
+}
+.inicio a:hover, .objetivo a:hover, .roboc a:hover, .hardware a:hover, .galeria a:hover, .quems a:hover{
+    background-color: gray;
+}
+.inicio,.objetivo,.roboc,.hardware,.galeria,.quems{
+
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+
+main .hardww h2{
+    margin-top: 65px;
+    margin-left: 580px;
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+}
+
+main .boxitens ul p{
+    font-size: 18px;
+    color: black;
+}
+
+.boxitens{
+    margin-top: 90px;
+}
+
+.boximg{
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#img1,#img3,#img5,#img6,#img7,#img8,#img9,#img10,#img11,
+#img12,#img13,#img14,#img15,#img16,#img17,#img18,#img19,#img20,#img21{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    margin: 20px;
+    border: 2px black solid;
+    margin-top: 100px;
+}
+.dard,.djum,.dsoque,.dled,.dresis,.dbarra,.dtermo,
+.dfita,.dmotor,.drodasb,.rodase,
+.dchave,.dsuporte,.dchavea,.dshildm,.dshildb{
+    width: 200px;
+    text-align: center;
+}
+.boxitens ul{
+    padding-top: 1px;
+    padding-left: 0px;
+    height:560px;
+    background-color: brown;
+    width: 200px;
+    margin-left: 80px;
+    text-align: center;
+}
+.drodasb{
+    position: relative;
+    left: 210px;
+    top: 480px;
+}
+.dmotor{
+    position: absolute;
+    left: 520px;
+    top: 620px;
+}
+.dard{
+    position: absolute;
+    left: 840px;
+    top: 630px;
+}
+.djum{
+    position: absolute;
+    left: 200px;
+    top: 1030px;
+}
+.dshildb{
+    position: absolute;
+    left: 535px;
+    top: 1030px;
+}
+.dshildm{
+    position: absolute;
+    left: 530px;
+    top: 1030px;
+}
+.dchave{
+    position: absolute;
+    left: 210px;
+    top: 500px;
+}
+.dshildb{
+    position: absolute;
+    left: 530px;
+    top: 1430px;
+}
+.dsoque{
+    position: absolute;
+    left: 850px;
+    top: 1030px;
+}
+.dresis{
+    position: absolute;
+    left: 200px;
+    top: 1810px;
+}
+.dbarra{
+    position: absolute;
+    left: 530px;
+    top: 1810px;
+}
+.drodase{
+    position: absolute;
+    left: 850px;
+    top: 1810px;
+}
+.dled{
+    position: absolute;
+    left: 850px;
+    top: 1420px;
+}
+.dtermo{
+    position: absolute;
+    left: 210px;
+    top: 500px;
+}
+.dfita{
+    position: absolute;
+    left: 210px;
+    top: 500px;
+}
+.dsuporte{
+    position: absolute;
+    left: 210px;
+    top: 500px;
+}
+.dchavea{
+    position: absolute;
+    left: 205px;
+    top: 1420px;
+}
+
+
